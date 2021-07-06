@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+
+h2{
+    font-size: 40px;
+}
+.flex-container {
+    display: flex;
+  }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+  
+.btn-primary {
+    border: 1px solid #fff;
+    background: linear-gradient(#fba24f, #ff4500);
+    color: #fff;
+}
+.btn-primary:hover {
+    background: #fff;
+    color: #fba24f;
+    border: 1px solid #fba24f;
+}
+.half-width {
+    width: 50%;
+  }
+#top-banner, #about {
+  justify-content: right;
+  align-items: center;
+}
+.top-banner-img {
+  width: 90%;
+}
+.top-banner-left {
+  padding-left: 80px;
+}
+.top-banner-left h1 {
+  font-size: 55px;
+  margin: 0;
+  font-weight: 900;
+  color: #333;
+}
+.text-primary {
+  color: #fba24f;
+}
+
+.top-banner-left p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.top-banner-text {
+  margin: 35px 0;
+}
+
+.about-img {
+  width: 50%;
+  padding-left: 160px;
+  padding-top: 60px;
+}
+
+#about {
+  background: url(images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+}
+.about-right {
+  padding-right: 180px;
+  padding-left: 50px;
+}
+.about-right p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.service {
+  padding: 30px;
+  text-align: center;
+}
+
+.service-text{
+  width: 50%;
+  padding-left: 370px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.service-item{
+  background-color: #fff;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px #ccc;
+}
+
+.service-item img {
+  width: 100%;
+}
+
+.service-item h4 {
+  font-size: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.service-item p{
+  line-height: 1.5;
+}
+.service-item p {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+
+.counter {
+  padding: 10px 30px;
+  background-color: #eeeeee;
+}
+
+.counter-items {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 60px 25px;
+  box-shadow: 0 10px 15px #ccc;
+}
+
+.counter-item {
+  width: 33%;
+  padding: 20px;
+  text-align: center;
+}
+
+.counter-item h2 {
+  margin-bottom: 0;
+  color: #333;
+  font-weight: 900;
+  border-right: 2px solid #fba24f;
+  letter-spacing: 5px;
+}
+
+.counter-item:last-child h2 {
+  border-right: 0;
+}
+
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.copy {
+  letter-spacing: 2px;
+}
